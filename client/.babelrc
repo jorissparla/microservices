@@ -1,0 +1,11 @@
+{
+  "presets": [["@babel/env", { "targets": { "firefox": 63, "chrome": 71, "node": 11 } }]],
+  "plugins": [
+    [
+      "transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
+  ]
+}

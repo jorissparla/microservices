@@ -1,0 +1,50 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html"
+  },
+  "keywords": [],
+  "author": "Joris Sparla",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.3.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-transform-runtime"
+    ]
+  },
+  "browserslist": [
+    ">0.25%",
+    "ie 11",
+    "not op_mini all"
+  ]
+}
